@@ -1,0 +1,19 @@
+.profile {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  padding-left: 24px;
+}
+
+.profile__avatar {
+  align-items: center;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile__name {
+  color: #f5f5f5;
+  font-size: 15px;
+  text-align: center;
+}

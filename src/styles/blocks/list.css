@@ -1,0 +1,12 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  gap: 5px;
+  line-height: 20px;
+  padding-top: 16px;
+}
+
+.list__item {
+  list-style: inside;
+}

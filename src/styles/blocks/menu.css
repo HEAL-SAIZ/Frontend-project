@@ -1,0 +1,23 @@
+.menu {
+  align-items: center;
+  display: flex;
+  gap: 30px;
+}
+
+.menu__item {
+  align-items: center;
+  display: flex;
+  padding: 8px 12px;
+}
+
+.menu__item--active {
+  background: #111827;
+  border-radius: 6px;
+}
+
+.menu__list {
+  align-items: flex-start;
+  color: white;
+  display: flex;
+  gap: 16px;
+}
