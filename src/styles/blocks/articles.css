@@ -1,0 +1,43 @@
+.articles {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.articles__btn {
+  align-self: center;
+  background: #fcffe7;
+  border: 1px solid #000;
+  flex-shrink: 0;
+  height: 44px;
+  margin-top: 40px;
+  width: 404px;
+}
+
+.articles__content {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  padding-top: 48px;
+}
+
+.articles__header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.articles__text {
+  color: #6b7280;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.articles__title {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.8px;
+  line-height: 40px;
+  text-align: center;
+}

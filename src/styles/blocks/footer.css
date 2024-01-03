@@ -1,0 +1,19 @@
+.footer {
+  background: #6a6a6a;
+  display: flex;
+  padding-bottom: 44px;
+  padding-top: 44px;
+}
+
+.footer__content {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer__text {
+  color: #fff;
+  font-size: 11px;
+  line-height: 20px;
+  text-align: right;
+}

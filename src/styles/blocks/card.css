@@ -1,0 +1,42 @@
+.card {
+  border: 1px solid #000;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 12px;
+  min-height: 350px;
+  padding: 24px;
+}
+
+.card__footer {
+  color: #6b7280;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: auto;
+  padding-top: 16px;
+}
+
+.card__img {
+  flex-shrink: 0;
+  height: 192px;
+  object-fit: cover;
+}
+
+.card__text {
+  color: #6b7280;
+  line-height: 24px;
+}
+
+.card__title {
+  color: #111827;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
