@@ -21,3 +21,38 @@
   font-size: 32px;
   font-weight: 700;
 }
+
+@media (width < 1024px) {
+  .helpful-info {
+    padding-top: 40px;
+  }
+
+  .helpful-info__title {
+    font-size: 24px;
+  }
+
+  .helpful-info__content {
+    padding-top: 40px;
+    gap: 15px;
+  }
+}
+
+@media (width < 768px) {
+  .helpful-info {
+    padding-top: 30px;
+  }
+
+  .helpful-info__title {
+    font-size: 20px;
+  }
+
+  .helpful-info__content {
+    padding-top: 24px;
+    gap: 10px;
+  }
+
+  .helpful-info__sidebar,
+  .helpful-info__info {
+    grid-column: span 12 / span 12;
+  }
+}

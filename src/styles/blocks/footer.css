@@ -13,7 +13,29 @@
 
 .footer__text {
   color: #fff;
-  font-size: 11px;
+  font-size: 14px;
   line-height: 20px;
   text-align: right;
+}
+
+@media (width < 1024px) {
+  .footer {
+    padding-top: 34px;
+    padding-bottom: 34px;
+  }
+
+  .footer__text {
+    font-size: 12px;
+  }
+}
+
+@media (width < 768px) {
+  .footer {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .footer__text {
+    font-size: 10px;
+  }
 }
