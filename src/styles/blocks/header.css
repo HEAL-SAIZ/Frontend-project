@@ -14,3 +14,25 @@
   flex-shrink: 0;
   justify-content: space-between;
 }
+
+.header__hamburger {
+  display: none;
+}
+
+@media (width < 1024px) {
+  .logo {
+    width: 150px;
+    height: 40px;
+  }
+}
+
+@media (width < 576px) {
+  .header__hamburger {
+    display: block;
+  }
+
+  .logo {
+    width: 150px;
+    height: 35px;
+  }
+}
