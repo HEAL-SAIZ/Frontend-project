@@ -36,6 +36,15 @@ button {
   .container {
     max-width: 768px;
   }
+
+  .heading-1 {
+    font-size: 30px;
+    padding-top: 50px;
+  }
+
+  .indent-100 {
+    margin-top: 70px;
+  }
 }
 
 @media (width < 768px) {
@@ -44,10 +53,23 @@ button {
     padding-left: 8px;
     padding-right: 8px;
   }
+
+  .heading-1 {
+    font-size: 24px;
+    padding-top: 20px;
+  }
+
+  .indent-100 {
+    margin-top: 50px;
+  }
 }
 
 @media (width < 576px) {
   .container {
     max-width: 100%;
+  }
+
+  .indent-100 {
+    margin-top: 40px;
   }
 }

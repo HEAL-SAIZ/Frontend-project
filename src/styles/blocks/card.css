@@ -40,3 +40,64 @@
   font-weight: 500;
   line-height: 28px;
 }
+
+@media (width < 1024px) {
+  .card__content {
+    gap: 10px;
+    padding: 20px;
+  }
+
+  .card__footer {
+    font-size: 12px;
+    padding-top: 14px;
+  }
+
+  .card__img {
+    height: 150px;
+  }
+
+  .card__text {
+    font-size: 14px;
+  }
+
+  .card__title {
+    font-size: 18px;
+  }
+}
+
+@media (width < 768px) {
+  .card__content {
+    gap: 6px;
+    padding: 14px;
+  }
+
+  .card__footer {
+    font-size: 10px;
+    padding-top: 12px;
+  }
+
+  .card__text,
+  .card__title {
+    font-size: 14px;
+  }
+}
+
+@media (width < 576px) {
+  .card__content {
+    gap: 5px;
+    padding: 8px;
+  }
+
+  .card__footer {
+    font-size: 10px;
+    padding-top: 12px;
+  }
+
+  .card__text {
+    font-size: 12px;
+  }
+
+  .card__title {
+    font-size: 14px;
+  }
+}
