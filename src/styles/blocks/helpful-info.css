@@ -39,7 +39,7 @@
 
 @media (width < 768px) {
   .helpful-info {
-    padding-top: 30px;
+    padding-top: 20px;
   }
 
   .helpful-info__title {
@@ -47,7 +47,7 @@
   }
 
   .helpful-info__content {
-    padding-top: 24px;
+    padding-top: 18px;
     gap: 10px;
   }
 

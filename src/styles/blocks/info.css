@@ -19,7 +19,13 @@
 }
 
 @media (width < 768px) {
+  .info {
+    padding: 14px 16px;
+    gap: 5px;
+  }
+
   .info__title {
     font-size: 16px;
+    padding-bottom: 0;
   }
 }

@@ -10,3 +10,9 @@
 .list__item {
   list-style: inside;
 }
+
+@media (width < 768px) {
+  .list {
+    padding-top: 8px;
+  }
+}

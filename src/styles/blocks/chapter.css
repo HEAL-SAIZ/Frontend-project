@@ -20,6 +20,10 @@
 }
 
 @media (width < 768px) {
+  .chapter {
+    gap: 5px;
+  }
+
   .chapter__title {
     font-size: 14px;
   }

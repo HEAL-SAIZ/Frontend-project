@@ -68,6 +68,7 @@
 @media (width < 768px) {
   .card__content {
     gap: 6px;
+    padding: 14px;
   }
 
   .card__footer {
@@ -82,6 +83,11 @@
 }
 
 @media (width < 576px) {
+  .card__content {
+    gap: 5px;
+    padding: 8px;
+  }
+
   .card__footer {
     font-size: 10px;
     padding-top: 12px;
